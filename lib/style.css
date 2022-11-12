@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Nanum+Gothic:wght@700&display=swap');
+
+:root{
+    --primary:#F2C94C;
+    --black:#333333;
+}
+
+body{
+    margin: 0;   
+    font-family: 'Kaushan Script', cursive;
+    color: var(--black);
+    
+}
+
+nav{
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#txt-input{
+    box-sizing: border-box;
+    display: block;
+    padding: 2px;
+    height: 20vh;
+    width: 100%;
+    margin-top: 3rem;
+  
+}
